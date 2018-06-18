@@ -24,7 +24,7 @@
     </js-module>
 
     <dependency id="cordova-plugin-extension"/>
-    <dependency id="cordova-facebook-audnet-sdk"/>
+    <dependency id="cordova-facebook-audnet-sdk" url="https://github.com/ElieSauveterre/cordova-facebook-audnet-sdk"/>
 
     <!-- android -->
     <platform name="android">
@@ -44,7 +44,6 @@
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
         </config-file>
 
-        <framework src="com.facebook.android:audience-network-sdk:4.28.2"/>
         <framework src="com.android.support:support-v4:+"/>
         <framework src="src/android/android-support.gradle" custom="true" type="gradleReference"/>
     </platform>
